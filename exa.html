@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="section container">
+        <h3 class="teal-text" align="center">Exámen :v</h3>
+        <div class="row">
+            <form class="col s12" action="" method="GET" id="form1">
+                <div class="row card-panel">
+                    <div class="input-field col s12 m12">
+                        <input type="text" name="correo" id="correo">
+                        <label for="correo">Correo electrónico</label>
+                    </div>
+                    <div class="input-field col s12 m12">
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="correo">Nombre completo</label>
+                    </div>
+                    <div class="input-field col s12 m12">
+                        <input type="text" name="cp" id="cp">
+                        <label for="correo">Código postal</label>
+                    </div>
+                    <div class="input-field col s12 m12">
+                        <input type="text" class="datepicker" name="fecha" id="fecha">
+                        <label for="correo">Fecha</label>
+                    </div>
+                    <div class="col s12 m12">
+                            <i class="material-icons edit">
+                                    android
+                                </i>
+                        <button type="submit" id="btn" name="btn" class="btn waves-effect waves-light">
+                            Enviar
+                        </button>
+                    </div>                    
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./RegistroVal.js"></script>
+    <script src="js/new.js"></script>
+</body>
+
+</html>
